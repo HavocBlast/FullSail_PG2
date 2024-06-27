@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{74608535-123f-4900-a59d-0be9f8b3f522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Console">
+      <UniqueIdentifier>{0e223cbe-88c1-46ef-87b8-81ad38ed1e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Data">
+      <UniqueIdentifier>{cb9b086f-89b4-40aa-ba46-04077bcfe589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Input">
+      <UniqueIdentifier>{4092247e-fb5e-4481-a105-816550577ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Tests">
+      <UniqueIdentifier>{864685e4-d2e3-40c0-8b90-e93c8115c5a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HeroesV1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroesDB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonNodePrinter.cpp">
+      <Filter>Misc\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\Console\Console.cpp">
+      <Filter>Misc\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\Data\JSONBase.cpp">
+      <Filter>Misc\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\Input\Input.cpp">
+      <Filter>Misc\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Tester.cpp">
+      <Filter>Misc\Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroesDB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\Console\Console.h">
+      <Filter>Misc\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\Data\JSONBase.h">
+      <Filter>Misc\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\Data\JSONIncludes.h">
+      <Filter>Misc\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\Input\Input.h">
+      <Filter>Misc\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Tester.h">
+      <Filter>Misc\Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="heroes.json">
+      <Filter>Misc\Data</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
